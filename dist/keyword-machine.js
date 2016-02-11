@@ -82,7 +82,10 @@
 		generateKeywords: function($odds) {
 			$keywodString = "";
 			$odds.map(function($odd) {
-				$keywodString += $odd.adjective + ' ' + $odd.noun + ', ';
+				$tmpCompiled = $odd.adjective + ' ' + $odd.noun + ', ';
+				if ($keywodString.indexOf($tmpCompiled) == -1) {
+					$keywodString += $tmpCompiled;
+				}
 			});
 			$keywodString = $keywodString.trim();
 			return $keywodString.substring(0, ($keywodString.length - 1));
