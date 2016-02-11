@@ -1,0 +1,27 @@
+{
+  "name": "keyword-machine",
+  "version": "0.0.1",
+  "authors": [
+    "Üsame Fethullah AVCI <usameavci@gmail.com>"
+  ],
+  "description": "Javascript ile otomatik meta key oluşturma elentisi",
+  "main": "dist/keyword-machine.js",
+  "keywords": [
+    "meta",
+    "keyword",
+    "generation",
+    "generator"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TakaharaShujin/keyword-machine",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
