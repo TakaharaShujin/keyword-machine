@@ -14,11 +14,11 @@ bower install keyword-machine --save
 ##### Manuel
 Sıkıştırılmış versiyonu kullanabilirsiniz.
 ```html
-<script type="https://raw.githubusercontent.com/TakaharaShujin/keyword-machine/master/dist/keyword-machine.min.js"></script>
+<script src="https://raw.githubusercontent.com/TakaharaShujin/keyword-machine/master/dist/keyword-machine.min.js"></script>
 ```
 yada
 ```html
-<script type="https://raw.githubusercontent.com/TakaharaShujin/keyword-machine/master/dist/keyword-machine.js"></script>
+<script src="https://raw.githubusercontent.com/TakaharaShujin/keyword-machine/master/dist/keyword-machine.js"></script>
 ```
 
 ### Kullanım Örneği
